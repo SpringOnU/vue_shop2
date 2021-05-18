@@ -4,6 +4,8 @@ import Login from '../components/Login.vue'
 import Home from '../components/Home.vue' // 添加路由规则
 import Welcome from '../components/Welcome.vue' // 添加路由规则
 import Users from '../components/user/Users.vue'
+import Rights from '../components/power/Rights.vue'
+import Roles from '../components/power/Roles.vue'
 
 Vue.use(Router)
 
@@ -17,7 +19,9 @@ const router = new Router({
       redirect: '/welcome', // 重定向 只要你访问了home组件 就会重定向到welcome组件
       children: [ // 子路由
         { path: '/welcome', component: Welcome },
-        { path: '/users', component: Users }
+        { path: '/users', component: Users },
+        { path: '/rights', component: Rights },
+        { path: '/roles', component: Roles }
       ]
     }
   ]
