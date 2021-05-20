@@ -136,7 +136,7 @@ export default {
     },
     methods: {
         async getCateList() {
-            const { data: res } = await this.$http.get('categories',  {
+            const { data: res } = await this.$http.get('categories', {
                 params: this.queryInfo
             })
             if (res.meta.status !== 200) {

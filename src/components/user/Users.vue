@@ -254,7 +254,7 @@ export default {
             // console.log(userInfo);
             const { data: res } = await this.$http.put(`users/${userInfo.id}/state/${userInfo.mg_state}`)
             if (res.meta.status !== 200) {
-                userInfo.mg_state = !userInfo.mg_state  // 失败了就把原来状态返回去
+                userInfo.mg_state = !userInfo.mg_state // 失败了就把原来状态返回去
                 return this.$message.error('更新用户状态失败')
             }
             this.$message.success('更新用户状态成功')
