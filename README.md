@@ -3,11 +3,9 @@
 ## 一、 项目目录树结构
 
 
-
+```
 ├─.eslintrc.js  				   语法检测 在其中配置相关语法命令
-
 ├─babel.config.js		      项目发布阶段需要用到的bable插件
-
 ├─package-lock.json
 ├─package.json
 ├─README.md
@@ -59,3 +57,4 @@
 ├─public
 |		   ├─favicon.ico
 |		   └index.html
+```
