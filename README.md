@@ -18,40 +18,40 @@
 |		  |		    ├─element.js			   Element-ui组件  
 |		  |		    ├─timeline-item  
 |		  ├─components					    通用组件文件夹  
-|		  |		     ├─Home.vue			  主页组件
+|		  |		     ├─Home.vue			  主页组件  
 |		  |		     ├─Login.vue			   登录组件 
-|		  |		     ├─Welcome.vue
-|		  |		     ├─user
-|		  |		     |		  └Users.vue
-|		  |		     ├─report
-|		  |		     |		   └Report.vue
+|		  |		     ├─Welcome.vue  
+|		  |		     ├─user  
+|		  |		     |		  └Users.vue  
+|		  |		     ├─report  
+|		  |		     |		   └Report.vue  
 |		  |		     ├─power
 |		  |		     |		   ├─Rights.vue
 |		  |		     |		   └Roles.vue
-|		  |		     ├─order
-|		  |		     |		   ├─citydata.js
-|		  |		     |		   └Order.vue
-|		  |		     ├─goods
-|		  |		     |		   ├─Add.vue
-|		  |		     |		   ├─Cate.vue
-|		  |		     |		   ├─List.vue
-|		  |		     |		   └Params.vue
-|		  ├─assets
-|		  |		   ├─heima.png
-|		  |		   ├─logo.png
-|		  |		   ├─fonts
-|		  |		   |		   ├─demo.css
-|		  |		   |		   ├─demo_fontclass.html
-|		  |		   |		   ├─demo_symbol.html
-|		  |		   |		   ├─demo_unicode.html
-|		  |		   |		   ├─iconfont.css
-|		  |		   |		   ├─iconfont.eot
-|		  |		   |		   ├─iconfont.js
-|		  |		   |		   ├─iconfont.svg
-|		  |		   |		   ├─iconfont.ttf
-|		  |		   |		   └iconfont.woff
-|		  |		   ├─css
-|		  |		   |		  └global.css
-├─public
-|		   ├─favicon.ico
-|		   └index.html
+|		  |		     ├─order  
+|		  |		     |		   ├─citydata.js  
+|		  |		     |		   └Order.vue  
+|		  |		     ├─goods  
+|		  |		     |		   ├─Add.vue  
+|		  |		     |		   ├─Cate.vue  
+|		  |		     |		   ├─List.vue  
+|		  |		     |		   └Params.vue  
+|		  ├─assets  
+|		  |		   ├─heima.png  
+|		  |		   ├─logo.png  
+|		  |		   ├─fonts  
+|		  |		   |		   ├─demo.css  
+|		  |		   |		   ├─demo_fontclass.html  
+|		  |		   |		   ├─demo_symbol.html  
+|		  |		   |		   ├─demo_unicode.html  
+|		  |		   |		   ├─iconfont.css  
+|		  |		   |		   ├─iconfont.eot  
+|		  |		   |		   ├─iconfont.js  
+|		  |		   |		   ├─iconfont.svg  
+|		  |		   |		   ├─iconfont.ttf  
+|		  |		   |		   └iconfont.woff  
+|		  |		   ├─css  
+|		  |		   |		  └global.css  
+├─public  
+|		   ├─favicon.ico  
+|		   └index.html  
